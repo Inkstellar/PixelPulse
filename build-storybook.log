@@ -1,0 +1,27 @@
+
+> @inkstellar-dev/pixel-pulse@1.0.4 build-storybook
+> storybook build --output-dir=/var/folders/0l/7ntn057567j49f0r7g1b9cw80000gn/T/chromatic--70068-SO93dTRGQJjp --webpack-stats-json=/var/folders/0l/7ntn057567j49f0r7g1b9cw80000gn/T/chromatic--70068-SO93dTRGQJjp
+
+[1m@storybook/core v8.5.0
+[22m
+info => Cleaning outputDir: [36m../../../../var/folders/0l/7ntn057567j49f0r7g1b9cw80000gn/T/chromatic--70068-SO93dTRGQJjp[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m79 ms[39m)
+info => Building preview..
+info => Using implicit CSS loaders
+info => Using default Webpack5 setup
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   177.5c6201b3.iframe.bundle.js (863 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (870 KiB)
+WARN       runtime~main.40ffb389.iframe.bundle.js
+WARN       177.5c6201b3.iframe.bundle.js
+WARN       main.eacb4da4.iframe.bundle.js
+WARN 
+info => Preview built ([38;2;181;126;229m3.33 s[39m)
+info => preview stats written to [36m/var/folders/0l/7ntn057567j49f0r7g1b9cw80000gn/T/chromatic--70068-SO93dTRGQJjp/preview-stats.json[39m
+info => Output directory: /var/folders/0l/7ntn057567j49f0r7g1b9cw80000gn/T/chromatic--70068-SO93dTRGQJjp
