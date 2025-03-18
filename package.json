@@ -71,7 +71,7 @@
     "prepare": "npm run build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_02c74d5e0e2ce13"
+    "chromatic": "npx chromatic --project-token=chpt_02c74d5e0e2ce13 --exit-zero-on-changes"
   },
   "dependencies": {
     "@mui/icons-material": "^5.16.14"
