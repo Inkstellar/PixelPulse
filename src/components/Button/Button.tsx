@@ -7,7 +7,7 @@ export interface ButtonProps extends Omit<MUIButtonProps, 'children'> {
 
 const Button: React.FC<ButtonProps> = ({ label, ...props }) => {
 	return (
-		<MUIButton {...props}>
+		<MUIButton {...props} sx={{ textTransform: 'none', borderRadius: "2px", px:4 }} disableElevation disableRipple>
 			{label}
 		</MUIButton>
 	);
