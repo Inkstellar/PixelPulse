@@ -58,6 +58,7 @@
     "babel-preset-react-app": "^10.0.1",
     "chromatic": "^11.27.0",
     "css-loader": "^7.1.2",
+    "dotenv": "^16.4.7",
     "rollup": "^2.79.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-terser": "^7.0.2",
@@ -71,7 +72,7 @@
     "prepare": "npm run build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "npx chromatic --project-token=chpt_02c74d5e0e2ce13 --exit-zero-on-changes"
+    "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
   },
   "dependencies": {
     "@mui/icons-material": "^5.16.14"

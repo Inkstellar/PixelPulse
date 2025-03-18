@@ -16,9 +16,10 @@ export default function AccordionUsage() {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
           id="panel1-header"
+          sx={{ "& .MuiAccordionSummary-content":{display: 'flex', alignItems: 'center',flexDirection:"row" }}}
         >
           <AccountTreeRounded/>
-          <Typography sx={{ml:2}} component="span">Accordion 1</Typography>
+          <Typography sx={{mx:2,borderRadius:2, flex:1,p:2, background:" #efefef"}} component="span">Accordion 1</Typography>
         </AccordionSummary>
         <AccordionDetails>
         <Typography  component="span">
