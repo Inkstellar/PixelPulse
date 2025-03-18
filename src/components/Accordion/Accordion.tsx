@@ -21,8 +21,10 @@ export default function AccordionUsage() {
           <Typography sx={{ml:2}} component="span">Accordion 1</Typography>
         </AccordionSummary>
         <AccordionDetails>
+        <Typography  component="span">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography> 
         </AccordionDetails>
         <AccordionActions>
           <Button size="small">Share</Button>
